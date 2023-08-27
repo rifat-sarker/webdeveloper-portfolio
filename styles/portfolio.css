@@ -126,3 +126,25 @@ main{
 .skill-description{
     color: #757575; 
 }
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-item-description,.resume-item-institue{
+    color: #757575;
+}
+.resume-item-title{
+    margin-bottom: 10px;
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume-item-institue{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
