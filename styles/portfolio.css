@@ -4,7 +4,7 @@ body{
 }
 
 .nav-title{
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 800;
     color: #181818;
 }
@@ -15,7 +15,7 @@ body{
     border-radius: 5px;
     background:#FD6E0A;
     border: 0;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 700;
     padding: 15px 35px;
     color: white;
@@ -42,8 +42,9 @@ nav a{
 
 /* header related styles*/
 .header{
-    background-color: #fff8f3;
-    
+    /* background: #FFF8F3; */
+    width: 75%;
+    margin: 0 auto;
 }
 .banner{
     padding: 30px 30px 0px 150px;
@@ -66,21 +67,24 @@ nav a{
     margin-bottom: 0px;
 }
 .banner-title{
-    font-size: 85px;
+    font-size: 45px;
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 20px;
 }
+.banner-description{
+    color: #757575;
+}
 .section-title{
     color: #181818;
     text-align: center;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 700;
 }
 .section-description{
     color: #757575;
     text-align: center;
-    font-size: 18px;
+    font-size: 14px;
 }
 /* main related styles*/
 main{
@@ -125,6 +129,7 @@ main{
 }
 .skill-description{
     color: #757575; 
+    font-size: 13px;
 }
 .resume-container{
     display: flex;
@@ -132,11 +137,12 @@ main{
 }
 .resume-item-description,.resume-item-institue{
     color: #757575;
+    font-size: 13px;
 }
 .resume-item-title{
     margin-bottom: 10px;
     color: #474747;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
 }
 .resume-item-institue{
@@ -153,10 +159,12 @@ footer{
     gap: 100px;
     background: #FFFFFF;
     padding: 130px 150px;
-    margin-top: 100px;
+    margin-top: 0px;
+    background: #FFF8F3;
 }
 .footer-column{
     width: 50%;
+    
 }
 .social-links a{
     margin-right: 25px;
@@ -168,6 +176,6 @@ footer{
     color: #757575;
     border-radius: 5px;
     border: 0;
-    background: #fff;
+    background: #FFFFFF;
     width: 100%;
 }
